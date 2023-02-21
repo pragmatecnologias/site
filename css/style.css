@@ -268,7 +268,7 @@ margin-top: 24px;
         left: .1rem !important;
     }
 }
-@media (max-width : 768px) {
+@media (max-width : 1024px) {
     
     #contact-header {
         margin: 0;
