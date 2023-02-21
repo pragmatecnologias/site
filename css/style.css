@@ -181,7 +181,7 @@ margin-top: 24px;
     color: black;
     text-decoration: underline;
 }
-.container .header .title, #contact-header .title {
+.container .header .title, #contact-header .title, #experience .title {
     text-align: left; 
     font-weight: 500;
     font-size: clamp(24px, 3.5vw, 42px); 
