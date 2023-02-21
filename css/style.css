@@ -177,7 +177,10 @@ margin-top: 24px;
     background-color: white;
 }
 
-
+.link {
+    color: black;
+    text-decoration: underline;
+}
 .container .header .title, #contact-header .title {
     text-align: left; 
     font-weight: 500;
