@@ -16,7 +16,6 @@
     --item-desc-background-color: aliceblue;
 }
 
-
 .strong {
     font-weight: 500;
     font-size: clamp(24px, 3.5vw, 42px); 
