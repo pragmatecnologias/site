@@ -47,3 +47,11 @@ if(image) {
         scale: 2
     });    
 }
+const footerSection = document.querySelector('#footer');
+if(footerSection) {
+    fetch('/footer.html')
+    .then(res=>res.text())
+    .then(data=>{
+        footerSection.innerHTML=data;
+    });
+}
