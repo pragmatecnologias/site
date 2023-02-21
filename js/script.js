@@ -1,5 +1,5 @@
 const header = document.querySelector('#header');
-fetch('/header.html')
+fetch('header.html')
 .then(res=>res.text())
 .then(data=>{
     header.innerHTML=data;
@@ -11,7 +11,7 @@ fetch('/header.html')
 });
 const slideshowSection = document.querySelector('#slideshow');
 if(slideshowSection) {
-    fetch('/slideshow.html')
+    fetch('slideshow.html')
     .then(res=>res.text())
     .then(data=>{
         slideshowSection.innerHTML=data;
@@ -25,7 +25,7 @@ if(slideshowSection) {
 
 const servicesSection = document.querySelector('#services');
 if(servicesSection) {
-    fetch('/services.html')
+    fetch('services.html')
     .then(res=>res.text())
     .then(data=>{
         servicesSection.innerHTML=data;
@@ -33,7 +33,7 @@ if(servicesSection) {
 }
 const customersSection = document.querySelector('#customers');
 if(customersSection) {
-    fetch('/customers.html')
+    fetch('customers.html')
     .then(res=>res.text())
     .then(data=>{
         customersSection.innerHTML=data;
@@ -49,7 +49,7 @@ if(image) {
 }
 const footerSection = document.querySelector('#footer');
 if(footerSection) {
-    fetch('/footer.html')
+    fetch('footer.html')
     .then(res=>res.text())
     .then(data=>{
         footerSection.innerHTML=data;
