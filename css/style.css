@@ -82,7 +82,7 @@ a {
 }
 .header{
     background-color: white;
-    /* background: center no-repeat url("/images/Fondo.jpg"); */
+    /* background: center no-repeat url("images/Fondo.jpg"); */
 }
 
 .header .subtitle{
