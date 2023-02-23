@@ -116,6 +116,7 @@ a {
     border: 1px solid var(--boxes-border-color);
     border-radius: 5px;
     margin-bottom: 24px;
+    justify-items: center;
 }
 
 #customers .container .body .item{
